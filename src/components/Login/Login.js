@@ -13,7 +13,7 @@ function Login({handleClick}) {
                 <label htmlFor="user" className="login-page__label">USER ID</label>
                 <input type="text" name='user' className='login-page__input' />
                 <label htmlFor="password" className="login-page__label">PASSWORD</label>
-                <input type="text" name='password' className='login-page__input'/>
+                <input type="password" name='password' className='login-page__input'/>
                 <select name="select" className='login-page__input'>
                     <option value="">Cards and Banking</option>
                 </select>
